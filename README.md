@@ -9,7 +9,8 @@ Copy 'followermodulegithub.py' file to the same directory as your Python script.
 import asyncio
 import followermodulegithub
 
-asyncio.run(followermodulegithub.run(urlquery='Z3NTL3'))
+stdout = asyncio.run(followermodulegithub.run(urlquery='Z3NTL3'))
+print(stdout)
 # Returns the amount of followes the profile has!
 # Output: 47
 
