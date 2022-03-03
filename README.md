@@ -14,6 +14,9 @@ asyncio.run(followermodulegithub.run(urlquery='Z3NTL3'))
 # Returns the amount of followers the user Z3NTL3 has!
 # Output: 47
 
+# Error Handling
+If failes it wont throw a error it would return integer 456 so make if statements to catch error for int 456
+
 # Z3NTL3 can be replaced with the queu of the github profile name. Dont parse https://github.com/Z3NTL3 only the github profile name 
 ```
 # Required Modules
