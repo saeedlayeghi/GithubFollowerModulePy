@@ -15,7 +15,14 @@ asyncio.run(followermodulegithub.run(urlquery='Z3NTL3'))
 # Output: 47
 
 # Error Handling
-If failes it wont throw a error it would return integer 456 so make if statements to catch error for int 456
+# If failes it wont throw a error it would return integer 456 so make if statements to catch error for int 456
+# Example:
+
+d = asyncio.run(followermodulegithub.run(urlquery='Z3NTL3'))
+if d == 456:
+  print('err')
+else:
+  pass # no err
 
 # Z3NTL3 can be replaced with the queu of the github profile name. Dont parse https://github.com/Z3NTL3 only the github profile name 
 ```
