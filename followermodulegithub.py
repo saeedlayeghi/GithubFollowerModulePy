@@ -12,7 +12,7 @@ async def run(*,urlquery):
     try:
         res = requests.get(f'https://github.com/{urlquery}', headers=header, proxies={'http': f'{random.choice(proxies.readlines())}'}, timeout=20)
     except:
-        sys.exit('Cannot connect | Baglanti Kurulamadi | Kan niet verbinden')
+        return 456
     finally:
         proxies.close()
 
@@ -20,7 +20,7 @@ async def run(*,urlquery):
         response = res.status_code
         webdata = res.text
     except:
-        sys.exit('Cannot connect | Baglanti Kurulamadi | Kan niet verbinden')
+        return 456
     finally:
         proxies.close()
 
@@ -33,5 +33,5 @@ async def run(*,urlquery):
         return print("{}".format(githubfollowers))
     else:
         proxies.close()
-        sys.exit('Cannot connect | Baglanti Kurulamadi | Kan niet verbinden')
+        return 456
 
