@@ -10,7 +10,7 @@ import asyncio
 import followermodulegithub
 
 asyncio.run(followermodulegithub.run(urlquery='Z3NTL3'))
-# Returns the amount of followes the profile has!
+# Returns the amount of followers the user Z3NTL3 has!
 # Output: 47
 
 # Z3NTL3 can be replaced with the queu of the github profile name. Dont parse https://github.com/Z3NTL3 only the github profile name 
