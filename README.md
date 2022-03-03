@@ -15,3 +15,5 @@ asyncio.run(followermodulegithub.run(urlquery='Z3NTL3'))
 
 # Z3NTL3 can be replaced with the queu of the github profile name. Dont parse https://github.com/Z3NTL3 only the github profile name 
 ```
+# Required Modules
+``bs4`` ```pip3 install bs4```
