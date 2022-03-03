@@ -1,5 +1,6 @@
 # GithubFollowerModulePy
 A basic module that makes it easy to see how many followers a specific github account has. ```python3+```
+Uses proxies once you paste in your proxies in ```proxies.txt```
 
 # How to use
 Copy 'followermodulegithub.py' file to the same directory as your Python script.
