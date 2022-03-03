@@ -10,7 +10,6 @@ import asyncio
 import followermodulegithub
 
 stdout = asyncio.run(followermodulegithub.run(urlquery='Z3NTL3'))
-print(stdout)
 # Returns the amount of followes the profile has!
 # Output: 47
 
